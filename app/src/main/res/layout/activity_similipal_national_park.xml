@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".SimilipalNationalParkActivity">
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Similipal National Park "
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ScrollView
+        android:layout_width="378dp"
+        android:layout_height="634dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72"
+        app:layout_constraintVertical_bias="0.97">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Similipal National Park is a national park and a tiger reserve in the Mayurbhanj district in the Indian state of Odisha covering 2,750 km2 (1,060 sq mi). It is part of the Mayurbhanj Elephant Reserve, which includes three protected areas — Similipal Tiger Reserve, Hadgarh Wildlife Sanctuary with 191.06 km2 (73.77 sq mi) and Kuldiha Wildlife Sanctuary with 272.75 km2 (105.31 sq mi). Simlipal National Park derives its name from the abundance of red silk cotton trees growing in the area.[2] It is the 7th largest national park in India."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="The park is home to Bengal tiger, Asian elephant, gaur, and chausingha along with some of the beautiful waterfalls like Joranda and Barehipani Falls.  This protected area is part of the UNESCO World Network of Biosphere Reserves since 2009."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="531dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Covering a vast area of 2750 km2 out of which 303 km2 from the core area, thick biosphere reserve is a sanctuary and one of the tiger projects and national parks of India. With a wide range of rainfall and edaphic variations, from dry deciduous to moist green forests, it is suitable to many species of flora and fauna. About 1076 species of mammals, 29 types of reptiles and 231 species of birds are in this plateau. The average mean elevation of Similipal is 900 meters. There are tall sal trees in large numbers. The peaks of Khairiburu (1178 meters), Meghasani (1158 meters) and others welcome. Sweet scented champak flowers freshen the air. The richly hued orchids on the green foliage are soothing. In the midst of the dense forests, the summer stands humbled. Several rivers like Budhabalanga, Khairi, salandi, Palpala, etc. originate from the hills and meander through the forest. Many of them have cascading rapids and foaming falls before leaving for the plains."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

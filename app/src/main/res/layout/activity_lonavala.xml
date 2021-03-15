@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC2B2B"
+    tools:context=".LonavalaActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="casual"
+        android:text="Lonavala"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="608dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="87dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Lonavala, a beautiful retreat away from the chaos of the city, is one of the most popular tourist destinations in Maharashtra"
+                android:textAllCaps="false"
+                android:textColor="#F1E9E9"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="#Karla Cave, Lonavala"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Karla Caves are ancient Buddhist rock-cut caves and a famous tourist attraction located near Lonavala. Also known as Karli Caves, Karle Caves or Karla Cells, it is one of the oldest Buddhist cave shrines in India. These caves houses one of the largest Chaityas (prayer hall with a stupa) in India. Karla Caves is mainly known for the Ekvira Temple located inside. Also known as Veluraka in the olden times, Karla Caves house a humongous 15 - meter pillar along with a temple dedicated to Goddess Ekveera. It also houses a Buddhist monastery which is believed to have been built there around 2nd century BC. One can spot a major ancient trade route near the caves running towards east from the Arabian Sea into the Deccan. One has to climb almost 150 stairs to reach the cave. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="#ARCHITECTURE OF KARLA CAVES"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Karla caves are a magnificent structure bearing one of the grandest and the largest Chaityagrihas of all such monuments in India. The largest of them is 37.87 m deep from door to back, 13.87 m wide and 14.02 high.  One will also find the fine sculptures of males, females, and animals in the hall. A sculpture of preaching Buddha seated on a lion-supported throne exhibits spectacular carvings of three elephants. The pillars resembling the Ashokan pillar are adorned with motifs of elephants are among the key features. The entrance of the cave has a temple dedicated to the Goddess Ekvira. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="#HOW TO REACH KARLA CAVES "
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="179dp"
+                android:fontFamily="sans-serif-black"
+                android:text="One can reach the Karla caves through public transportation. The best option is to either hire a taxi if one is traveling from Pune or Mumbai or take a state transport bus that plies regularly from Mumbai and Pune to Lonavala and from Lonavala to Karla. Once you have reached, it takes around 20 minutes of steep climb walking to reach the caves."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="#SHOPPING IN LONAVALA"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Lonavala Bazaar is a market bustling with people giving you a perfect opportunity to explore myriad of shops. Check out the tiny shops selling souvenirs, wooden figurines, colourful bangles, handmade clothes and products made of cane Lonavala is well-known for some of the best chikki and you can see a chikki shop at every nook and corner. Maganlal Chikki Center is quite as famous as the place Lonavala itself."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="#BEST TIME TO VISIT LONAVALA"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="The best time to visit Lonavala is from December to February. The average temperature during this time ranges from 12 degrees Celcius to 29 degrees Celcius making the weather perfect for sightseeing."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

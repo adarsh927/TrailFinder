@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".MatheranActivity">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="Matheran"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="625dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="One Tree Hill point in Matheran is one of the most scenic viewpoints in Maharashtra. It is named so because it has just one tree growing on top of the hill. The one tree hill viewpoint affords a panoramic and unobstructed view of the deep valleys and stretching forests that surround the hill station of Matheran. It is also famous for trekking."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A gentle trek up to the hilltop offers a mesmerising view of the surrounding tourist spots of Tent Hill and Chowk Village. Shivaji's Ladder Road marks the way downhill from this site, and you can enjoy the scenic beauty on the way down as well. This place is a quaint destination to relax and unwind in the midst of nature. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="TREKKING TO ONE TREE HILL POINT "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Trekking to the One Tree Hill Point is an adventure one must go for once. It is a perfect way spend time with family and friends while connecting with natureThe trek will slowly lead you into a path into the forest amongst the dense trees sheltering the path with its comforting shadows. The cool breeze ruffling the bushes and the dry leaves crunching under your steps; tiny birds playfully chirping around and faint sound of beetles and crickets in the background- this time spent in the laps of the nature will rejuvenate and relax you to the core."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="A small Ganesha Temple marks the beginning of the climb to the One Tree Hill point. The steps are a little rocky, but are not something to worry about. Finally, about 2-3 hours into the trek, you will arrive at the One Tree Hill point! You can see the tiny village of Matheran underneath and the wall that surrounds the hill station too. If you go further, adventure organizers have arranged for a thrilling activity of Valley-Crossing from the One Tree Hill point to the wall of Matheran. It is truly an adrenaline filled experience to enjoy."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="HOW TO REACH ONE TREE HILL POINT  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="It is a 45-minute walk from the Matheran Railway Station. The road is uneven, paved with small stone. So, care must be taken while traversing this path. Alternatively, you can also ride on a pony to the One Tree Hill Point. The pony ride is a little expensive so makes sure to properly bargain before hiring a pony."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="THE BEST TIME TO VISIT MATHERAN "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Being a hill station you can visit any time of the year as it has a charming and calm weather that bewitches tourists. Regardless, summers are the best respite from other cities.   is Summer from March - June. Being a hill station you can visit any time of the year as it has a charming and calm weather that bewitches tourists. Regardless, summers are the best respite from other cities. "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="SHOPPING IN MATHERAN "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="sans-serif-medium"
+                android:text=" While in Matheran, shop for leather items, Kolhapuri footwear, Chikki, honey and simple handicraft items here"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

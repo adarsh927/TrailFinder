@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".GanpatipuleBeachActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="Ganpatipule Beach"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="632dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.769">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:fontFamily="sans-serif-black"
+                android:text="The Ganpatipule Beach is a spectacular and stunning beach that is located on the Konkan coastline in the Ratnagiri District of Maharashtra in southern India. This pristine beauty is also famous for the 400-year-old Ganesha Temple that can be found here, the idol of which is said to have been self-created and was discovered over 1600 years ago. The coastline of the Ganpatipule Beach is no doubt spectacular and mesmerizing, and is home to a variety of exquisite flora, which includes dense coconut trees and mangroves."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Such a picturesque landscape and serene surroundings are of course an ideal getaway from the monotonous and hectic daily life of the people of Mumbai and the neighbouring areas and is a perfect place to visit for couples, families as well as groups of friends. Nature lovers and adventure enthusiasts enjoy a lot at this place too, since the site offers not only scenic views but also a range of adventure sports in certain specific month"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="ADVENTURE SPORTS AT GANAPATIPULE BEACH "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:fontFamily="sans-serif-black"
+                android:text="There is a myriad of activities that you can enjoy while at the Ganpatipule Beach to make the most out of your trip. Those looking for an adrenaline rush can enjoy adventure sports like paragliding, swimming, motorboat rides, water scooter and pedal boat rides, camel rides, etc."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="FOOD AT GANAPATIPULE BEACH"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:fontFamily="sans-serif-black"
+                android:text="You can enjoy mouth-watering food items like Ambapoli, Phanspoli, Kokam kadi, fish curries, etc., which are worth giving a shot. Also, do not forget to taste the Modaks and Alphonso mangoes if you happen to visit the beach during the peak season."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="BEST TIME TO VISIT GANAPATIPULE BEACH"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:fontFamily="sans-serif-black"
+                android:text="The Ganpatipule Beach has a tropical climate and can be visited all year round. However, adventure lovers should visit the beach between November and May, since it offers water sports only during these months."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

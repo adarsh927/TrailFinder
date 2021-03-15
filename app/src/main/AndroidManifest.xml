@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adarshcoder.trailfinder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrailFinder">
+        <activity android:name=".SimilipalNationalParkPosterActivity"></activity>
+        <activity android:name=".SimilipalNationalParkActivity" />
+        <activity android:name=".JagannathTempleActivity" />
+        <activity android:name=".JagannathTemplePosterActivity" />
+        <activity android:name=".GopalpurActivity" />
+        <activity android:name=".GopalpurBeachPosterActivity" />
+        <activity android:name=".JirangActivity" />
+        <activity android:name=".JirangPosterActivity" />
+        <activity android:name=".KonarkTemplePosterActivity" />
+        <activity android:name=".KonarkTempleActivity" />
+        <activity android:name=".MatheranActivity" />
+        <activity android:name=".MatheranPosterActivity" />
+        <activity android:name=".MahabaleshwarActivity" />
+        <activity android:name=".MahabaleshwarPosterActivity" />
+        <activity android:name=".RatnagiriFortActivity" />
+        <activity android:name=".RatnagiriFortPosterActivity" />
+        <activity android:name=".GanpatipuleBeachActivity" />
+        <activity android:name=".GanpatipuleBeachPosterActivity" />
+        <activity android:name=".LonavalaPosterActivity" />
+        <activity android:name=".LonavalaActivity" />
+        <activity android:name=".OdishaContentActivity" />
+        <activity android:name=".MAharashtraContentActivity" />
+        <activity android:name=".OdishaPosterActivity" />
+        <activity android:name=".MaharashtraPosterActivity" />
+        <activity android:name=".ContentActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

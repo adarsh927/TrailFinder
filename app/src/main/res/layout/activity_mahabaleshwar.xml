@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD0000"
+    tools:context=".MahabaleshwarActivity">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Mahabaleshwar"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ScrollView
+        android:layout_width="397dp"
+        android:layout_height="627dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="The Mahabaleshwar temple near Satara is one of the ancient temples of Maharashtra. It was built by Chanda Rao More dynasty in the 16th century. The magnificent temple is guarded by a five feet wall and has two sections- the inner area and the outer area. The inner part, known as the sanctum sanctorum, has Shiva as the presiding deity. There are many belongings of Lord Shiva in the premises of this temple, like his bed, damru, Trishul, carvings of his sacred bull and Kalbhairav (his bodyguard); that aptly defines his presence here."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="The main and central attraction of this temple is the 6 feet long Shiva lingam of which only the tip is visible, depicting the stone incarnation of Lord Shiva. The Mahabaleshwar Temple has a very serene and spiritual environment."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="HOW TO REACH MAHABALESHWAR TEMPLE"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="About 6 km from the central city, this temple in Old Mahabaleshwar is easily accessible by road. Hire a cab or hop into your car with your family to enjoy a mini family picnic here. The beautiful landscape will surely compel you to admire the majestic temple and its glorious past."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:fontFamily="casual"
+                android:text="BEST TIME TO VISIT MAHABALESHWAR TEMPLE  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Since the town of Mahabaleshwar is located in the vicinity of Western Ghats, it experiences a rather pleasant climate throughout the year. The coniferous forests in the proximity majorly define the weather in this region. October to June serves as the best time to pay a visit to this magnificent temple."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="SHOPPING IN MAHABALESHWAR"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="While in Mahabaleshwar, essentials include the freshest of strawberries and raspberries that the town is known for. Also take home jellies, honey, jams and more. One can also shop for handicrafts, leather items, Kolhapuri footwear and much more from the Town Bazaar."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="normal" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

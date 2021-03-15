@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".JirangActivity">
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="casual"
+        android:text="Jirang"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="403dp"
+        android:layout_height="615dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="The Padmasambhava Mahavihara Monastery(Odia: ପଦ୍ମସମ୍ଭବ ମହା ବୌଦ୍ଧ ବିହାର), also known as Thupten Mindrolling Monastery located at Jeerango, Gajapati district, in the state of Odisha, India, as the main monastaray belonging to the Ripa Lineage. It is said to be the largest Buddhist monastery in Eastern India. It was inaugurated by the Dalai Lama in January 2010."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text='The Chinese invasion and occupation of Tibet in 1959 forced about 85,000 Tibetans including their religious and political head the 14th Dalai Lama to seek shelter in India and other places. Then Chandragiri, about 80 kilometers from Berhampur a southern town of Orissa, was chosen as one of the main six camps / settlements established in the country. The Tibetan refugees who stay at Jiranga or which is also popularly known as Chandragiri, Odisha, call this place as Phuntsokling, which in Tibetan translates to -"Land of Happiness and Plenty". Accord for the monastery was given by the Dalai Lama in 1998. The foundation stone was laid in 2003 and building was completed in 2008 at a cost of about Rs 8 crores.'
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Structure"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="It is built in the Atanpuri style of architecture of Nalanda by architects from Tibet, Nepal and Bhutan assisted by local masons. It is 70 feet (21 m) and five stories high, and is built on 10 acres (40,000 m2) of land. It features a 23 feet (7.0 m) high Buddha statue and a 17 feet (5.2 m) Buddha Padmasambhava. Around 200 monks are resident in the monastery, which is named after Acharya Padmasambhava (who was born in Oddiyana), who is believed to have spread Buddhism to Tibet in the 7th Century. This is a school for Tibetan studies and there are students staying and reading different courses here. The five-storey monastery has a huge meditation shrine hall and other small temples, institute and hostels inside the well spread-out complex. There is an old temple located at left side of main entrance of the temple."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

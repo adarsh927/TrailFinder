@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    tools:context=".GopalpurActivity">
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="Gopalpur"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="369dp"
+        android:layout_height="629dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gopalpur is a coastal town and a Notified Area Council on the Bay of Bengal coast in Ganjam district in the southern part of Odisha, India. Today it is a commercial port, a famous sea beach, a tourist destination and Maa Khambeswari 9D Cinema(Virtual Reality Show) is most attractive. Gopalpur is around 15 km from Berhampur. The reconstruction of an all weather port including new berths is under development."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gopalpur also has an ancient, commercial port, now lying in ruins. Under the ownership of the Soraine family the village grew in wealth, from an obscure little fishing village, Gopalpur became a prominent trading port. The family built the port, the lighthouse and the Albert Hotel and established both a local fishing industry and a trade route with Burma."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="They also established the bylaw allowing any villagers who could build a house, with a perimeter and light a fire in the fireplace overnight, could then keep the land and house (on the backwaters) as their own."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="During the British rule family squabbles and disputes resulted in much being transferred to British missionaries. The Albert Hotel now locked in ownership battles and lying derelict is the last remnant of those squabbles.  During the days of British East India Company The East India Company built large warehouses and godowns because the trade with Burma had picked up and it had become a trading point for rice from Rangoon."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
